@@ -95,4 +95,6 @@ Random forest has the highiest accuracy, so we use for predicting the test data
 ```{r}
 testRf <- predict(fitRf, testdata)
 testRf
+##  [1] B A B A A E D B A A B C B A E E A B B B
+## Levels: A B C D E
 ```
